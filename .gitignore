@@ -1,0 +1,22 @@
+# Python virtual environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Large generated artifacts (recreate instead of committing)
+outputs/
+data/
+checkpoints/
+wandb/
+*.mp4
+*.safetensors
+
+# macOS
+.DS_Store
+
+# Private career research (not for the public repo; remove these lines to publish)
+reports/
+research_notes/
+
+# Private notes (career plan, purchases)
+private/
